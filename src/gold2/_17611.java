@@ -3,6 +3,7 @@ package gold2;
 import java.util.*;
 import java.io.*;
 public class _17611 {
+    //정올 2019 1차 2번 - https://www.acmicpc.net/problem/17618
     static int n ;
     static final int max = 1000010;
     static int[][] cor;

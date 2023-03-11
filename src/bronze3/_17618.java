@@ -2,6 +2,7 @@ package bronze3;
 import java.util.*;
 import java.io.*;
 public class _17618 {
+    //정올 2019 2차 1번 https://www.acmicpc.net/problem/17618
     static int n;
     static int cnt = 0;
 
