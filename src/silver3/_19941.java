@@ -1,7 +1,7 @@
 package silver3;
 
 import java.util.Scanner;
-//정올 2020 1차 2번
+//정올 2020 1차 1번
 // https://www.acmicpc.net/problem/19941
 
 public class _19941 {
