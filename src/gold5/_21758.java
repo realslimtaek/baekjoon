@@ -2,6 +2,8 @@ package gold5;
 import java.util.*;
 import java.io.*;
 public class _21758 {
+    //정올 2021 1차 1번문제
+    //https://www.acmicpc.net/problem/17610
     static int[] place;
     static int[] toRightSum;
     static int[] toLeftSum;
