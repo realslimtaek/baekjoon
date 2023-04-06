@@ -7,7 +7,6 @@ public class _22342 {
     static int n,m;
     static int[] dx = {-1, 0 , 1};
     static int[][] arr;
-    static int[][] input;
     static int[][] store;
     static int[][] print;
     static int answer = Integer.MIN_VALUE;
@@ -21,7 +20,6 @@ public class _22342 {
         m = Integer.parseInt(st.nextToken());
 
         arr = new int[n][m];
-        input = new int[n][m];
         store = new int[n][m];
         print = new int[n][m];
 
