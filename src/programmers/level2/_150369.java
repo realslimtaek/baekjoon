@@ -1,6 +1,7 @@
 package programmers.level2;
 
 public class _150369 {
+    //https://school.programmers.co.kr/learn/courses/30/lessons/150369
 
     public static void main(String[] args) {
 //        int[] a = {1,0,2,0,1,0,2};
