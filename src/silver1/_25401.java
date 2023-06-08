@@ -22,7 +22,7 @@ public class _25401 {
     }
 
     public static int solution(int n, int[] list){
-        int answer = n;
+        int answer = n-2;
         int temp = 0;
         int k = 0;
         int count = 0;
@@ -63,62 +63,3 @@ public class _25401 {
         return answer;
     }
 }
-
-/*
-#include <stdio.h>
-
-int main(void)
-{
-
-    int n, temp;
-
-    scanf("%d", &n);
-    int A[502];
-
-    for (int i = 1; i <= n; i++)
-    {
-        scanf("%d", &temp);
-        A[i] = temp;
-    }
-
-    int ans = n - 2;
-    int curd = 0;
-    int k = 0, d = 0;
-    int cnt = 0;
-    int cur;
-
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = i + 1; j <= n; j++)
-        {
-            curd = A[i] - A[j];
-            if (A[j] - A[i] >= A[i] - A[j])
-            {
-                curd = A[j] - A[i];
-            }
-
-            k = j - i;
-
-            if (curd % k)
-                continue;
-
-            d = (A[j] - A[i]) / k;
-
-            cnt = 0;
-            for (int t = 1; t <= n; t++)
-            {
-                cur = A[i] + d * (t - i);
-                if (cur == A[t])
-                {
-                    cnt++;
-                }
-            }
-
-            if (n - cnt <= ans)
-                ans = n - cnt;
-        }
-    }
-
-    printf("%d\n", ans);
-}
- */

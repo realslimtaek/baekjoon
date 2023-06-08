@@ -2,7 +2,6 @@ package bronze1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class _2748 {
 
@@ -18,7 +17,6 @@ public class _2748 {
         }
 
         System.out.println(arr[Integer.parseInt(br.readLine())]);
-
 
     }
 }

@@ -39,11 +39,13 @@ public class Main {
             member.add(Integer.parseInt(st1.nextToken())); //L
         }
     }
+
     public static void asdf(List<Integer> member, int member_choose){
         Collections.sort(member);
         for(int i = 0; i<member_choose; i++){
             member.set(i, member.get(i) + 1);
         }
     }
+
 
 }
