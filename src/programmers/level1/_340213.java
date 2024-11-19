@@ -1,7 +1,9 @@
+package programmers.level1;
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-
-class Main {
+// https://school.programmers.co.kr/learn/courses/30/lessons/340213?language=java#
+class _340213 {
 
     static LocalTime videoLen;
     static LocalTime current;
