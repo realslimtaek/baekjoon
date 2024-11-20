@@ -1,7 +1,9 @@
+package programmers.level2;
+
 import java.util.Arrays;
 import java.util.Objects;
 
-class _340212 {
+public class _340212 {
     
     static int[] wrongTime;
     static long count;
